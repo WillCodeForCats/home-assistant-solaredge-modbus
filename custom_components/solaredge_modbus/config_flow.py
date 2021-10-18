@@ -10,6 +10,8 @@ from .const import (
     DEFAULT_NAME,
     DEFAULT_SCAN_INTERVAL,
     DEFAULT_PORT,
+    DEFAULT_MODBUS_ADDRESS,
+    CONF_MODBUS_ADDRESS,
     CONF_NUMBER_INVERTERS,
     DEFAULT_NUMBER_INVERTERS,
     CONF_READ_METER1,
@@ -26,6 +28,7 @@ DATA_SCHEMA = vol.Schema(
         vol.Optional(CONF_NAME, default=DEFAULT_NAME): str,
         vol.Required(CONF_HOST): str,
         vol.Required(CONF_PORT, default=DEFAULT_PORT): int,
+        vol.Optional(CONF_MODBUS_ADDRESS, default=DEFAULT_MODBUS_ADDRESS): int,
         # Would like to restrict this to only allow numbers between 1-9 but not sure how
         vol.Required(CONF_NUMBER_INVERTERS, default=DEFAULT_NUMBER_INVERTERS): int,
         vol.Optional(CONF_READ_METER1, default=DEFAULT_READ_METER1): bool,
