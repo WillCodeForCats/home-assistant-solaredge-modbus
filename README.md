@@ -1,4 +1,11 @@
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
+# IMPORTANT
+I made a mess of this repo trying to make a pull request to get multiple inverter support merged upstream and wasn't sure how to fix it, so to start over cleanly I uploaded the files from my actual working installation to a new repo here:
+
+https://github.com/WillCodeForCats/solaredge-modbus-multi/
+
+If you're looking for multiple inverter support go there.
+
+---
 
 # home-assistant-solaredge-modbus
 Home assistant Custom Component for reading data from Solaredge inverter through modbus TCP.
