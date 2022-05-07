@@ -1,9 +1,7 @@
 # IMPORTANT
 
-GO TO: https://github.com/WillCodeForCats/solaredge-modbus-multi/
+### GO TO: [WillCodeForCats/solaredge-modbus-multi](https://github.com/WillCodeForCats/solaredge-modbus-multi)
 
-If you're looking for multiple inverter support go there. Single inverters are also supported.
+I made a mess of this fork and wasn't sure how to fix it, so I started over. I've developed more features and ehnacements as I've learned more about Home Assistant and Python. Do not use this fork, use [WillCodeForCats/solaredge-modbus-multi](https://github.com/WillCodeForCats/solaredge-modbus-multi) or look for "SolarEdge Modbus Multi-Inverter" in HACS. The new one is regulray updated, has more features, fixes, and just better overall.
 
-I made a mess of this fork trying to make a pull request to get multiple inverter support merged upstream and wasn't sure how to fix it, so I started over. I've developed more features and ehnacements beyond this fork as I've learned more about HA and Python. Basically, do not use this fork, use the linked repo above. The new one is better.
-
-This fork is not maintained and will not be supported.
+### GO TO: [WillCodeForCats/solaredge-modbus-multi](https://github.com/WillCodeForCats/solaredge-modbus-multi)
